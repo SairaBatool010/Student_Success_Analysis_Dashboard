@@ -5,7 +5,11 @@ This project analyzes the influence of financial, demographic, and macroeconomic
 ## Dashboard
 The dashboard provides insights into academic performance and financial factors:
 
-![Dashboard Screenshot](https://github.com/your-username/your-repo-name/blob/main/dashboard.png "Dashboard Overview")
+![Dashboard Screenshot]((https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D2.png)
+![Dashboard Screenshot]((https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D1.png)
+![Dashboard Screenshot]((https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D3.png)
+
+![Dashboard Screenshot]((https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D4.png)
 
 
 ## Business Problem
