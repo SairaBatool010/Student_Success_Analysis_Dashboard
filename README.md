@@ -39,10 +39,4 @@ Significant findings (p < 0.05):
 
 ## Dashboard
 The dashboard provides a comprehensive overview of academic performance, demographics, and financial factors affecting success.
-## Dashboard
-The dashboard provides insights into academic performance and financial factors:
 
-![Dashboard Screenshot](Dashboard_Images/D2.png)
-![Dashboard Screenshot](https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D1.png)
-![Dashboard Screenshot](https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D3.png)
-![Dashboard Screenshot](https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D4.png)
