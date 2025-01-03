@@ -41,7 +41,3 @@ Significant findings (p < 0.05):
 
 ## Dashboard
 The dashboard provides a comprehensive overview of academic performance, demographics, and financial factors affecting success.
-
----
-
-This README is optimized for GitHub, with clear sections and links for easy navigation.
