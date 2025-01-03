@@ -1,149 +1,47 @@
-Student Success Analysis
+# Student Success Analysis
 
-Business Problem:
+This project analyzes the influence of financial, demographic, and macroeconomic factors on student academic performance and retention rates. The goal is to uncover actionable insights to enhance academic outcomes through data-driven strategies.
 
-To enhance academic results and retention rates, the aim is to fully understand the influence of various financial factors on student success. The goal is to identify which financial indicators (e.g., scholarship status, debt levels, parental income, and employment status) and macroeconomic conditions (e.g., GDP, unemployment rates) most significantly correlate with academic performance metrics such as grades, course completion rates, and dropout rates.
+## Business Problem
+The aim is to identify financial indicators (e.g., scholarship status, debt levels, parental income) and macroeconomic conditions (e.g., GDP, unemployment rates) that correlate with metrics such as grades, course completion rates, and dropout rates.
 
-Data Cleaning/Wrangling:
+## Data Cleaning/Wrangling
+- **Missing Values**:
+  - `Age at Enrollment`: 2 missing values replaced with the mean.
+  - `Course Name`, `Daytime/Evening Attendance`, `Nationality Name`: Fixed via mapping.
+- Standardized inconsistent values (e.g., "girl" replaced with "female").
+- Removed 11 duplicate rows.
+- Cleaned data exported as a new CSV file.
 
-We tested the data for missing values. These were the values missing:
+[Python Notebook - Data Cleaning](https://colab.research.google.com/drive/12FBE2r0xjHamOoc-Qq_tryNPZPqAWxMS?usp=sharing)
 
-Missing values:
+## Exploratory Data Analysis (EDA)
+### Univariate Analysis
+[Collab Link](https://colab.research.google.com/drive/1ww47nYzSm99LZZrlEmHEfjCbzEUWwblg?usp=sharing)
 
-Age at enrollment (2)
+### Bivariate/Multivariate Analysis
+[Python File Link](https://colab.research.google.com/drive/1K5_dpozy8CII_SWVg5CRQ8bt64sfqWUZ?usp=sharing)
 
-Course Name (2)
+#### Key Findings:
+- Strong correlation between first-semester and second-semester grades.
+- Weak correlation between GDP and inflation rate.
 
-Daytime/Evening Attendance (3)
+## ANOVA Results
+Significant findings (p < 0.05):
+- **Course vs. Marital Status**: F=2.747, p=0.017
+- **Daytime/Evening Attendance vs. Curricular Units (2nd Semester Approved)**: F=5.160, p=0.023
+- **Scholarship Holder vs. Inflation Rate**: F=3.865, p=0.049
 
-Nationality Name (11)
+... (Add additional results or insights as needed.)
 
-For the last three, we fixed them through mapping. For "Age at Enrollment," we computed the mean and inserted it.
+## Recommendations and Insights
+1. Tailored support for displaced students and those with special needs.
+2. Enhanced financial aid to reduce dropout rates.
+3. Strategies to address gender-based differences in academic performance.
 
-Python notebook link: Data Cleaning Notebook
+## Dashboard
+The dashboard provides a comprehensive overview of academic performance, demographics, and financial factors affecting success.
 
-Additional steps:
+---
 
-Replaced "girl" with "female" in the gender column.
-
-Found 11 duplicated rows and removed them.
-
-Generated a new CSV file with updated results.
-
-EDA:
-
-Univariate Analysis:
-
-Collab link: Univariate Analysis Notebook
-
-Bivariate/Multivariate Analysis:
-
-Python file link: Bivariate Analysis Notebook
-
-Results from Pearson’s Coefficient:
-
-Correlation Heatmap:
-
-Strong correlation between:
-
-Circular results first semester and circular results second semester grades.
-
-Weak correlation between:
-
-GDP and inflation rate.
-
-Application order and age at enrollment.
-
-Course and GDP.
-
-Course and curricular units for 1st and 2nd semester.
-
-Visualizations:
-
-Scatterplots and boxplots for multiple variables (refer to the Python file).
-
-Significant ANOVA Results:
-
-Below are the ANOVA results with p-value < 0.05:
-
-Course and Marital Status: F-statistic = 2.747, P-value = 0.017.
-
-Curricular units (2nd semester, approved) and Daytime/Evening Attendance: F-statistic = 5.160, P-value = 0.023.
-
-Curricular units (2nd semester, evaluations) and Nationality Name: F-statistic = 1.628, P-value = 0.038.
-
-Curricular units (1st semester, enrolled) and Mother's Qualification: F-statistic = 2.079, P-value = 0.019.
-
-Course and Mother's Occupation: F-statistic = 1.924, P-value = 0.015.
-
-Curricular units (2nd semester, enrolled) and Displaced Status: F-statistic = 6.590, P-value = 0.010.
-
-Inflation Rate and Scholarship Holder Status: F-statistic = 3.865, P-value = 0.049.
-
-GDP and Scholarship Holder Status: F-statistic = 6.099, P-value = 0.014.
-
-For full results, refer to the notebooks linked above.
-
-Recommendations and Insights:
-
-Course and Demographic Factors:
-
-Marital Status: Significant differences in course distribution suggest marital status influences course enrollment choices.
-
-Mother's Occupation: Variations in course enrollment highlight a socio-economic dimension in course selection.
-
-Gender: Strong gender-based differences in course selection suggest societal norms or career aspirations play a role.
-
-Curricular Performance and Attendance Type:
-
-Daytime/Evening Attendance: Attendance type affects student performance significantly.
-
-Displaced Students: Displacement status correlates with performance, indicating challenges or advantages linked to mobility.
-
-Socio-Economic Factors and Academic Outcomes:
-
-Educational Special Needs: Tailored support is required as these students show different academic outcomes.
-
-Debtor Status: Financial stress may contribute to varying academic performances.
-
-Economic Indicators and Student Characteristics:
-
-Scholarship Holder Status: Macroeconomic conditions influence the likelihood of receiving scholarships.
-
-Displacement and Economic Factors: Economic conditions like unemployment and GDP strongly impact student mobility.
-
-Admission and Previous Academic Performance:
-
-International Students: These students display distinct academic profiles compared to domestic students.
-
-Marital Status: Married students may have different academic backgrounds and outcomes.
-
-Application Mode and Student Attributes:
-
-Application Mode: The mode of application is associated with distinct academic characteristics.
-
-Gender Differences: Substantial gender-based differences in academic performance metrics are evident.
-
-Parental Influence on Academic Outcomes:
-
-Mother's and Father's Qualifications: Parental education significantly impacts student success.
-
-Dashboard:
-
-Dashboard Screenshot:
-
-The dashboard provides an overview of key insights, including:
-
-Scorecards for grades and student performance metrics.
-
-Slicers for analyzing different demographics.
-
-Insights showing:
-
-Scholarship holders are less likely to drop out.
-
-Single students have higher graduation rates.
-
-Financial stability significantly impacts student outcomes.
-
-The dashboard effectively identifies critical factors affecting student success.
+This README is optimized for GitHub, with clear sections and links for easy navigation.
