@@ -2,6 +2,12 @@
 
 This project analyzes the influence of financial, demographic, and macroeconomic factors on student academic performance and retention rates. The goal is to uncover actionable insights to enhance academic outcomes through data-driven strategies.
 
+## Dashboard
+The dashboard provides insights into academic performance and financial factors:
+
+![Dashboard Screenshot](https://github.com/your-username/your-repo-name/blob/main/dashboard.png "Dashboard Overview")
+
+
 ## Business Problem
 The aim is to identify financial indicators (e.g., scholarship status, debt levels, parental income) and macroeconomic conditions (e.g., GDP, unemployment rates) that correlate with metrics such as grades, course completion rates, and dropout rates.
 
