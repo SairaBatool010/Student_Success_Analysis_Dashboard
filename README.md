@@ -2,16 +2,6 @@
 
 This project analyzes the influence of financial, demographic, and macroeconomic factors on student academic performance and retention rates. The goal is to uncover actionable insights to enhance academic outcomes through data-driven strategies.
 
-## Dashboard
-The dashboard provides insights into academic performance and financial factors:
-
-![Dashboard Screenshot](Dashboard_Images/D1.png)
-![Dashboard Screenshot](https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D1.png)
-![Dashboard Screenshot](https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D3.png)
-
-![Dashboard Screenshot](https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D4.png)
-
-
 ## Business Problem
 The aim is to identify financial indicators (e.g., scholarship status, debt levels, parental income) and macroeconomic conditions (e.g., GDP, unemployment rates) that correlate with metrics such as grades, course completion rates, and dropout rates.
 
@@ -49,3 +39,10 @@ Significant findings (p < 0.05):
 
 ## Dashboard
 The dashboard provides a comprehensive overview of academic performance, demographics, and financial factors affecting success.
+## Dashboard
+The dashboard provides insights into academic performance and financial factors:
+
+![Dashboard Screenshot](Dashboard_Images/D2.png)
+![Dashboard Screenshot](https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D1.png)
+![Dashboard Screenshot](https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D3.png)
+![Dashboard Screenshot](https://github.com/SairaBatool010/Student_Success_Analysis_Dashboard/blob/main/Dashboard_Images/D4.png)
