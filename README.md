@@ -32,8 +32,6 @@ Significant findings (p < 0.05):
 - **Daytime/Evening Attendance vs. Curricular Units (2nd Semester Approved)**: F=5.160, p=0.023
 - **Scholarship Holder vs. Inflation Rate**: F=3.865, p=0.049
 
-... (Add additional results or insights as needed.)
-
 ## Recommendations and Insights
 1. Tailored support for displaced students and those with special needs.
 2. Enhanced financial aid to reduce dropout rates.
